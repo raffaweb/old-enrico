@@ -1,0 +1,41 @@
+- order: 001
+  name: "Mini brano ispirato al Jeff Beck di Wired e Blow by Blow"
+  url: "//www.youtube.com/embed/lXIoQto6W7U"
+  category:
+  #date: "July 2014"
+  #client: "Client name"
+  #web: "http://"
+  #photo: "roundicons.png"
+  #img-alt: "Photo description"
+  id: "video01"
+  description: "Solo su base Funk vagamente ispirato al Jeff Beck di Wired"
+  #claim: "Lorem ipsum dolor sit amet consectetur."
+  #call-to-action: "Est blanditiis quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo."
+
+- order: 002
+  name: "Solo su giro armonico di un blues minore"
+  url: "//www.youtube.com/embed/dTAE8jPso2c"
+  category:
+  #date: "July 2014"
+  #client: "Client name"
+  #web: "http://"
+  #photo: "roundicons.png"
+  #img-alt: "Photo description"
+  id: "video02"
+  #description: "Rock minor bluesy solo"
+  #claim: "Lorem ipsum dolor sit amet consectetur."
+  #call-to-action: "Est blanditiis quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo."
+
+- order: 003
+  name: "Assolo rock su riff dalla sonorità frigia"
+  url: "//www.youtube.com/embed/VLo8u57_XSs"
+  category:
+  #date: "July 2014"
+  #client: "Client name"
+  #web: "http://"
+  #photo: "roundicons.png"
+  #img-alt: "Photo description"
+  id: "video03"
+  description: "Test Mooer Radar"
+  #claim: "Lorem ipsum dolor sit amet consectetur."
+  #call-to-action: "Est blanditiis quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo."

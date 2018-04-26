@@ -1,0 +1,15 @@
+- name: "Per chi deve iniziare"
+  icon: "handshake"
+  description: "A chi parte da zero in genere suggerisco un libro per l'introduzione alla lettura musicale, alle scale e alla tecnica di base, affiancato allo studio di accordi e di ritmiche di brani, in parte scelti da me, in parte con lo studente."
+
+- name: "Per chi già suona"
+  icon: "music"
+  description: "E' possibile concordare programmi specifici per approfondire un ambito (tecnica, armonia, ecc...) o un genere musicale."
+
+- name: "certificazioni "
+  icon: "graduation-cap"
+  description: "Tra i percorsi didattici offro la preparazione alle certificazioni RGT di LCM di cui sono tutor autorizzato.
+  Si tratta di 8 step molto chiari e ben strutturati che permettono di fare ordine e non tralasciare
+  nulla tra le conoscenze musicali comuni a tutti gli ambiti della chitarra moderna."
+  urltext: "RGT di LCM"
+  url: "http://www.rgt.org"

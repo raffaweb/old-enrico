@@ -1,0 +1,38 @@
+<!-- About Section -->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Progetti</h2>
+                <h3 class="section-subheading text-muted">Questi sono i progetti in ambito musicale in cui sto lavorando</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="timeline">
+                  {% for element in site.data.about %}
+                  {% if element.side == 'right' %}
+                    <li class="timeline-inverted">
+                  {% else %}
+                    <li>
+                  {% endif %}
+                        <div class="timeline-image">
+                            <img class="img-circle img-responsive" src="/assets/img/collaborazioni/{{ element.image }}" alt="{{ element.img-alt }}">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>{{ element.year }}</h4>
+                                <h4 class="subheading"><a href={{ element.url }} target='_blank'>{{ element.name }}</a></h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">{{ element.text }}</p>
+                            </div>
+                        </div>
+                    </li>
+                  {% endfor %}
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

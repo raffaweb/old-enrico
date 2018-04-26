@@ -1,0 +1,37 @@
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+#raffa test, se la variabile show = true visualizza le porzioni di html all'interno di essa
+show: true
+destination: docs
+
+
+# Site settings
+
+title: Enrico Porazzi
+email: your-mail@your-domain.com
+description: > # this means to ignore newlines until "author:"
+  Enrico Porazzi Lezioni di chitarra.
+author: laklau
+keyword: jekyll
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:
+
+# Build settings
+
+markdown: kramdown
+
+#theme: agency-jekyll-theme #The "agency-jekyll-theme" is not supported by GitHub Pages.
+
+gems:
+  - jekyll-feed
+exclude:
+  - agency-jekyll-theme.gemspec
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - screenshot.png
+include:
+  - CNAME
