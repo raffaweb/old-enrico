@@ -8,11 +8,11 @@ destination: docs
 
 # Site settings
 
-title: Enrico Porazzi
-email: your-mail@your-domain.com
+title: Enrico Porazzi - Lezioni di chitarra
+email: 
 description: > # this means to ignore newlines until "author:"
   Enrico Porazzi Lezioni di chitarra.
-author: laklau
+author: raffaella migliaccio
 keyword: jekyll
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
