@@ -311,7 +311,7 @@ section {
     bottom: 0;
     position: absolute;
     content: "";
-    width: 2px;
+    width: 0px;
     background-color: #f1f1f1;
     left: 40px;
     margin-left: -1.5px; }
