@@ -8,42 +8,17 @@
             </div>
         </div>
         <div class="row">
-        {% if site.show == false %}
-          {% for project in site.data.works %}
-            <div class="col-md-4 col-sm-6 video-item">
-                <a href="#{{ project.id }}" class="video-link" data-toggle="modal">
-                    <div class="video-hover">
-                        <div class="video-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="/assets/img/video/{{ project.photo }}" class="img-responsive" alt="{{ project.img-alt }}">
-                </a>
+            {% for project in site.data.video %}
+            <div class="col-md-4 col-sm-6 video-item" >
+                <div class="video-container">
+                <iframe width="640" height="360" src="{{project.url}}" frameborder="0" allowfullscreen></iframe>
+                </div>
                 <div class="video-caption">
                     <h4>{{ project.name }}</h4>
                     <p class="text-muted">{{ project.category }}</p>
                 </div>
             </div>
-          {% endfor %}
-        {% endif %}
-
-          <!-- inizio RAFFA TEST VIDEO -->
-
-              {% for project in site.data.video %}
-              <div class="col-md-4 col-sm-6 video-item" >
-                  <div class="video-container">
-                    <iframe width="640" height="360" src="{{project.url}}" frameborder="0" allowfullscreen></iframe>
-                  </div>
-                  <div class="video-caption">
-                      <h4>{{ project.name }}</h4>
-                      <p class="text-muted">{{ project.category }}</p>
-                  </div>
-
-              </div>
-              {% endfor %}
-
-          <!--fine Raffa TEST VIDEO -->
-
+            {% endfor %}
         </div>
     </div>
 </section>
